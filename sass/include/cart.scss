@@ -1,0 +1,33 @@
+.cart-button{
+    @media (max-width: 991px) {
+        width: 100%;
+        font-size: 12;
+    }
+    @media (min-width: 992px) { 
+        width: 50%;
+     }
+     @media (max-width: 767.98px) { 
+        width: 50%;
+     }
+}
+
+.cart-price{
+    @media (max-width: 575.98px) { 
+        margin-top: -25px;
+        margin-left: 16px;
+        text-align: center !important;
+        justify-content: center;
+        
+        h6{
+            width: 80px;
+        }
+     }
+}
+
+.cart-thumb{
+    @media (max-width: 575.98px) { 
+        height: 120px;
+        width: auto;
+        justify-content: center !important;
+     }
+}
